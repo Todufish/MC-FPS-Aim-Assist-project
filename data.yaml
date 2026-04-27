@@ -1,0 +1,8 @@
+# 使用相对路径，验证集指向测试集
+path: .
+train: dataset\train\images
+val: dataset\valid\images
+test: dataset\test\images
+
+nc: 1
+names: ['head']

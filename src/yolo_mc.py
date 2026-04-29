@@ -132,7 +132,7 @@ class MinecraftZombieDetector:
             self.sct.close()
             print("检测已停止。")
 if __name__ == "__main__":
-    MODEL_PATH = r"..\FPS\best.pt"
+    MODEL_PATH = r"..\best.pt"
     detector = MinecraftZombieDetector(
         model_path=MODEL_PATH, 
         conf_threshold=0.6, 
